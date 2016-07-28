@@ -1,0 +1,129 @@
+body {
+		background-color: #F3F1F5;
+		box-sizing: border-box;
+    overflow: scroll;
+		font-family: 'Architects Daughter', cursive;
+}
+/* Header and Navigation Bar */
+.header {
+	height: 7.5rem;
+	width: 60%;
+	margin: 0 20% 0 20%;
+	position: fixed;
+	background-color: #827F8A;
+	z-index: 100;
+	top: 3rem;
+}
+
+.header h3 {
+	font-size: 5rem;
+	float: left;
+}
+
+.nav {
+	font-size: 2.5rem;
+	float: right;
+	font-weight: bold;
+	display: block;
+}
+
+.header h3,
+.nav {
+	height: 2rem;
+	width: 45%;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+}
+
+.nav a {
+	padding-left: 3rem;
+}
+
+
+/* Home Section */
+#home {
+	height: 50rem;
+	padding: 5rem;
+}
+
+#home img {
+	height: 30rem;
+	width: 30rem;
+	padding: 0;
+}
+
+#home p {
+	height: 30rem;
+	width: 50%;
+	font-size: 2rem;
+}
+
+#home img,
+.hello {
+	float: left;
+	padding: 4rem;
+}
+
+/* Work Section */
+#work {
+ text-align: center;
+}
+label {
+	font-size: 2rem;
+}
+/* Tech Section */
+#tech {
+	text-align: center;
+}
+
+svg {
+	height: 18rem;
+	width: 18rem;
+	padding: 2rem;
+}
+
+/*Info Section */
+#info {
+		text-align: center;
+}
+
+.fa {
+	padding: 1rem;
+	font-size: 4rem;
+}
+
+#main {
+	top: 10rem;
+	position: absolute;
+}
+
+#main section img {
+	height: 40rem;
+	width: 40rem;
+	padding: 5rem;
+}
+
+
+section {
+	width: 60%;
+	margin: 3rem 20% 3rem 20%;
+	background-color: #B1AFC0;
+}
+/*
+a[ id= "home-link" ]:target ~ #main section {
+    -webkit-transform: translateY( 100px);
+    transform: translateY( 100px);
+}
+a[ id= "work-link" ]:target ~ #main section {
+    -webkit-transform: translateY( 500px);
+    transform: translateY( 500px );
+}
+a[ id= "tech-link" ]:target ~ #main section {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+a[ id= "info-link" ]:target ~ #main section {
+    -webkit-transform: translateY( 600px);
+    transform: translateY( 600px );
+}
